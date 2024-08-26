@@ -1,11 +1,29 @@
 {
-  "posts": [
+  "results_size": 1,
+  "results": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": "1",
+      "title": "Item Title",
+      "description" : "Description of the item.",
+      "image_url" : "https://images.unsplash.com/photo-1577401239170-897942555fb3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80",
+      "last_update" : 1509364426938,
+      "blob": {
+        "sku": "1",
+        "title": "First item",
+        "description": "Description of first item.",
+        "image_url": "https://images.unsplash.com/photo-1577401239170-897942555fb3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80"
+      }
+    },
+     {
+      "id": "2",
+      "title": "Item Title 2",
+      "description" : "Description of the item 2.",
+      "last_update" : 1509364426937,
+      "blob": {
+        "sku": "2",
+        "title": "Second item",
+        "description": "Description of first item 2."
+      }
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
